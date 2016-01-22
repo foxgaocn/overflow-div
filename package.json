@@ -1,0 +1,37 @@
+{
+  "name": "overflow-div",
+  "version": "1.1.0",
+  "description": "A simple div wrapper, which will display tooltip if the content is truncated",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel ./src/overflow-div.js -o main.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/foxgaocn/overflow-div.git"
+  },
+  "keywords": [
+    "overflow",
+    "tooltip"
+  ],
+  "author": "Harry Gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foxgaocn/overflow-div/issues"
+  },
+  "homepage": "https://github.com/foxgaocn/overflow-div#readme",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-bootstrap": "^0.28.2",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0"
+  }
+}
